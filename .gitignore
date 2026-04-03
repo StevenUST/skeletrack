@@ -38,3 +38,6 @@ examples/
 
 # Output data
 *.npy
+
+# Others
+CLAUDE.md
