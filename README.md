@@ -108,4 +108,10 @@ Skeleton keypoint groups (via MediaPipe Holistic):
 
 ## License
 
-MIT
+This project is licensed under the [MIT License](LICENSE).
+
+Note: The optional YOLO detection backend depends on
+[ultralytics](https://github.com/ultralytics/ultralytics), which is licensed
+under AGPL-3.0. If you use `skeletrack[yolo]`, please ensure your usage
+complies with the AGPL-3.0 terms. For AGPL-free usage, you may implement a
+custom detection backend without the ultralytics dependency.
